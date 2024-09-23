@@ -81,9 +81,9 @@ This command tells Vault to enable the AppRole authentication method.
 
 export variable,
 
----
+```
 export VAULT_ADDR='http://0.0.0.0:8200'
----
+```
 
 We need to create policy first,
 
