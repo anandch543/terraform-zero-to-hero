@@ -79,7 +79,14 @@ This command tells Vault to enable the AppRole authentication method.
 
 2. **Create an AppRole**:
 
+export variable,
+
+---
+export VAULT_ADDR='http://0.0.0.0:8200'
+---
+
 We need to create policy first,
+
 
 ```
 vault policy write terraform - <<EOF
